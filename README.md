@@ -1,0 +1,17 @@
+- clone repo
+- migrate tables
+- composer require laravel/ui
+- php artisan ui vue --auth
+- npm install vue-loader@^15.9.7 --save-dev --legacy-peer-deps
+- npm update vue-loader
+- composer require predis/predis
+- npm i ioredis --save
+- edit file database.php
+- php artisan cache:clear
+- php artisan config:clear
+- php artisan make:event PrivateMessageEvent/GroupMessageEvent
+- php artisan queue:table
+- php artisan queue:restart
+- php artisan queue:work
+
+- edit file database to match redis broadcast
